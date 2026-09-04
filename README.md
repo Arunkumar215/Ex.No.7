@@ -1,207 +1,112 @@
-# Exno.7-Develop a prompt-based application tailored to their personal needs, fostering creativity and practical problem-solving skills while leveraging the capabilities of large language models.
+# Ex.No.7 Prompt-Based Application Using ChatGPT
+# Reg: 212223220009
+## Aim
 
-# Register no.212223220009
-# Aim:
-To develop a prompt-based application using ChatGPT - To demonstrate how to create a prompt-based application to organize daily tasks, showing the progression from simple to more advanced prompt designs and their corresponding outputs.
+To develop a prompt-based application using ChatGPT and demonstrate how to create a prompt-based application for organizing daily tasks, showing the progression from simple to more advanced prompt designs and their corresponding outputs.
 
-
-# AI Tools Required:
+## AI Tools Required:
 
 - ChatGPT
 - Google Gemini
 - Microsoft Copilot
 
+## Explanation
 
-## Objective
+Prompt engineering is the process of designing effective instructions for Large Language Models (LLMs) to obtain useful and relevant responses.
 
-To use prompt engineering techniques to create and improve different forms of technical communication, including a technical report, research abstract, literature review, project proposal, resume, LinkedIn profile, and research poster. The generated content is refined using iterative prompting and evaluated based on grammar, technical accuracy, plagiarism, and readability.
-
-## Selected Application Area
-
-### Project Title
-
-**ForensiFuse: A Confidence Calibrated Framework for Cross Tool Digital Evidence Corroboration**
-
-### Application
-
-ForensiFuse is a digital forensic evidence fusion framework that combines findings obtained from multiple forensic analysis tools. It identifies duplicate or dependent evidence, detects contradictory findings, adjusts evidence weights, and generates a final confidence score.
-
-The same project is used as the subject for creating the technical communication portfolio.
-
----
-
-## Prompt Engineering Process
-
-The following process is used:
-
-1. Define the required document.
-2. Provide the project context to the AI tool.
-3. Specify the target audience and writing style.
-4. Generate the initial content.
-5. Review the generated content.
-6. Identify errors or missing information.
-7. Use iterative prompts to improve the content.
-8. Evaluate the final version.
-
----
-
-# 1. Technical Report
+In this experiment, a **Personal Productivity Assistant** is designed using ChatGPT. The assistant is intended to manage daily tasks, schedule reminders, suggest wellness tips, and answer general queries using natural language.
 
 ### Prompt
 
-> Act as a technical writer and digital forensics researcher. Write a technical report for the project "ForensiFuse: A Confidence Calibrated Framework for Cross Tool Digital Evidence Corroboration". Include introduction, problem statement, objectives, methodology, system design, evidence confidence calculation, results, limitations, and conclusion. Use formal technical language and ensure the content is clear and accurate.
+> "Design a personal productivity assistant that can help manage daily tasks, schedule reminders, suggest wellness tips, and answer general queries. The assistant should interact using natural language and be adaptable to the user's changing preferences over time."
 
-### Iterative Prompt
+## Procedure
 
-> Review the technical report for grammar, technical accuracy, readability, repetition, and unclear statements. Improve the report while preserving the original meaning.
+1. Define the core requirements of a personal productivity assistant.
+2. Identify and construct appropriate prompts for each task using an LLM such as ChatGPT.
+3. Simulate natural user interaction through a simple interface or command-line system.
+4. Collect feedback or inputs from users and adapt responses accordingly.
+5. Optionally integrate basic memory to simulate preference adaptation.
+6. Compare the outputs obtained from simple and advanced prompts.
+7. Improve the prompts iteratively based on the generated responses.
 
----
+## Expected Output
 
-# 2. Research Abstract
+### Personal Productivity Assistant Features
 
-### Prompt
+#### 1. Daily Task Manager
 
-> Write a research abstract for ForensiFuse, a confidence calibrated framework for cross-tool digital evidence corroboration. Include the problem, proposed approach, methodology, key contribution, and expected outcome in approximately 200 words.
+- Accept tasks using natural language.
+- Example: "Remind me to call mom at 6 PM."
+- Organize tasks based on priority and deadline.
+- Provide daily summaries and pending tasks.
 
-### Iterative Prompt
+#### 2. Smart Scheduler
 
-> Improve the abstract by making it concise, technically accurate, grammatically correct, and suitable for an academic research paper.
+- Schedule events and reminders using contextual understanding.
+- Identify overlapping appointments.
+- Suggest available time slots.
+- Prioritize important tasks.
 
----
+#### 3. Wellness Tips Generator
 
-# 3. Literature Review
+- Suggest daily wellness tips such as hydration, exercise, and screen-time breaks.
+- Provide suggestions based on user preferences.
+- Adapt recommendations based on previous interactions.
 
-### Prompt
+#### 4. General Query Assistant
 
-> Act as a digital forensics researcher. Prepare a literature review for a research project on cross-tool digital evidence corroboration and evidence confidence scoring. Discuss existing approaches, their limitations, evidence fusion techniques, and the research gap that ForensiFuse aims to address. Do not invent references or research findings.
+- Answer general questions using natural language.
+- Provide concise and understandable responses.
+- Ask for clarification when the user's request is unclear.
 
-### Iterative Prompt
+## Prompt Progression
 
-> Improve the literature review by organizing the discussion logically, removing repetition, improving readability, and clearly identifying the research gap.
+### Level 1 – Simple Prompt
 
----
+> "Create a daily task list."
 
-# 4. Project Proposal
+**Example Output:**
 
-### Prompt
+- Complete assignment
+- Attend class
+- Study for examination
+- Exercise
+- Review project work
 
-> Create a project proposal for "ForensiFuse: A Confidence Calibrated Framework for Cross Tool Digital Evidence Corroboration". Include title, background, problem statement, objectives, proposed methodology, technologies, expected outcomes, scope, and future enhancements.
+### Level 2 – Structured Prompt
 
-### Iterative Prompt
+> "Create a daily task list for a college student. Divide the tasks into high, medium, and low priority and arrange them according to deadlines."
 
-> Review the project proposal and improve its technical clarity, organization, grammar, feasibility, and readability.
+### Level 3 – Advanced Prompt
 
----
+> "Act as a personal productivity assistant for a college student. Organize the user's tasks based on priority, deadline, estimated duration, and importance. Suggest an efficient schedule, identify possible conflicts, and provide a short summary of pending tasks. Use a clear table format."
 
-# 5. Resume
+## Iterative Prompting
 
-### Prompt
-
-> Act as a professional resume writer. Create a technical resume for a computer science student interested in cybersecurity, digital forensics, AI, and software development. Include skills, education, projects, certifications, and achievements. Highlight the ForensiFuse project. Do not invent qualifications or experience.
-
-### Iterative Prompt
-
-> Improve the resume to make it concise, professional, ATS-friendly, grammatically correct, and focused on measurable technical skills.
-
----
-
-# 6. LinkedIn Profile
-
-### Prompt
-
-> Create a professional LinkedIn profile for a computer science student interested in cybersecurity, digital forensics, artificial intelligence, and software development. Include a professional headline, About section, technical skills, and project description for ForensiFuse. Use a professional but natural tone.
-
-### Iterative Prompt
-
-> Rewrite the LinkedIn profile to make it concise, professional, readable, and suitable for recruiters while avoiding exaggerated claims.
-
----
-
-# 7. Research Poster
-
-### Prompt
-
-> Design the content structure for a research poster for "ForensiFuse: A Confidence Calibrated Framework for Cross Tool Digital Evidence Corroboration". Include title, problem statement, objectives, methodology, architecture, evidence confidence calculation, results, advantages, limitations, and conclusion. Keep the content concise and suitable for a research poster.
-
-### Iterative Prompt
-
-> Reduce the text and convert long paragraphs into concise bullet points suitable for a research poster. Maintain technical accuracy and readability.
-
----
-
-# Evaluation
-
-The generated documents are evaluated using the following criteria:
-
-| Evaluation Parameter | Observation |
-|---|---|
-| Grammar | Corrected grammatical errors using iterative prompting |
-| Technical Accuracy | Technical concepts were reviewed and verified |
-| Plagiarism | Content was rewritten and checked for originality |
-| Readability | Improved through shorter sentences and clear organization |
-| Consistency | Project terminology was kept consistent |
-| Professional Quality | Improved through multiple prompt iterations |
-
----
-
-# Initial Output vs Improved Output
-
-| Parameter | Initial AI Output | Improved Output |
-|---|---|---|
-| Grammar | Some corrections required | Improved |
-| Technical accuracy | Required verification | Reviewed and corrected |
-| Readability | Moderate | High |
-| Organization | Basic | Well structured |
-| Repetition | Present in some sections | Reduced |
-| Technical terminology | Good | More consistent |
-| Professional tone | Good | Improved |
-| Originality | Required checking | Reviewed for plagiarism |
-
----
-
-# Iterative Prompting Example
-
-### Initial Prompt
-
-> Write an abstract about ForensiFuse.
-
-### Initial Output
-
-The AI generates a basic abstract describing the project.
+The initial response is reviewed and improved using additional prompts.
 
 ### Improvement Prompt
 
-> Make the abstract more technical and concise. Clearly state the problem, methodology, contribution, and expected outcome. Remove unnecessary statements.
+> "Review the generated task schedule. Improve it by prioritizing urgent tasks, reducing scheduling conflicts, and making the schedule realistic for a college student."
 
-### Final Improvement Prompt
+### Final Prompt
 
-> Check the final abstract for grammar, technical accuracy, readability, repetition, and unsupported claims. Produce the final academic version.
+> "Provide the final optimized daily schedule in a clear table with task, priority, time, duration, and status. Keep the response concise and easy to follow."
 
-This demonstrates how **iterative prompting** can improve the quality of AI-generated technical communication.
+## Result
 
----
+The lab exercise resulted in the creation of a prototype concept for a personal productivity assistant powered by a Large Language Model.
 
-# Deliverable
+The experiment demonstrated that students were able to:
 
-## Technical Communication Portfolio
+- Understand how to tailor LLM prompts to real-life applications.
+- Design prompts for different productivity tasks.
+- Improve AI responses through iterative prompting.
+- Understand the progression from simple to advanced prompts.
+- Explore the use of generative AI for everyday productivity.
+- Develop structured and context-aware AI interactions.
 
-The final portfolio contains:
+## Conclusion
 
-1. Technical Report
-2. Research Abstract
-3. Literature Review
-4. Project Proposal
-5. Resume
-6. LinkedIn Profile
-7. Research Poster
-
----
-
-# Result
-
-The required technical communication documents were successfully generated using prompt engineering and improved through iterative prompting. The documents were evaluated for grammar, technical accuracy, plagiarism, readability, consistency, and professional quality.
-
-# Conclusion
-
-Prompt engineering can be effectively used to create different forms of technical communication. Iterative prompting helps improve the initial AI-generated content by correcting grammatical errors, improving technical accuracy, removing unnecessary repetition, and enhancing readability. However, human review is essential to verify technical claims, maintain originality, and ensure that the final documents accurately represent the project.
-
+The experiment successfully demonstrated the development of a prompt-based personal productivity assistant using ChatGPT. By progressively improving prompts, the quality, relevance, and structure of the generated responses were enhanced. The experiment also demonstrated that effective prompt engineering can make AI tools more useful for task management, scheduling, wellness suggestions, and general queries.
